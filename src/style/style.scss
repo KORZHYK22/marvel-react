@@ -48,7 +48,8 @@ input::-webkit-inner-spin-button {
 }
 
 .app {
-	width: 1100px;
+	max-width: 1100px;
+	min-width: 320px;
 	margin: 0 auto;
 	padding: 50px 0 50px 0;
 	position: relative;
@@ -61,6 +62,9 @@ input::-webkit-inner-spin-button {
 }
 
 main {
+	max-width: 1100px;
+	min-width: 320px;
+	margin: 0 auto;
 	margin-top: 50px;
 	position: relative;
 }
@@ -78,5 +82,15 @@ main {
 	}
 	100% {
 		opacity: 1;
+	}
+}
+
+@media (max-width: $smallLaptop) {
+	.app {
+		.bg-decoration {
+			right: 0;
+			bottom: -30px;
+			z-index: -1;
+		}
 	}
 }

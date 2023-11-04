@@ -47,6 +47,7 @@
 	}
 	&__main,
 	&__secondary {
+		margin-bottom: 15px;
 		&:hover {
 			color: #fff;
 		}
@@ -92,5 +93,11 @@
 
 	&:disabled {
 		filter: grayscale(0.5);
+	}
+}
+
+@media (max-width: $smallLaptop) {
+	.button {
+		min-width: 60px;
 	}
 }
