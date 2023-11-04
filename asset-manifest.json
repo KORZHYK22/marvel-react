@@ -3,7 +3,7 @@
     "static/css/0.b3bd2dc3.chunk.css": "/marvel-react/static/css/0.b3bd2dc3.chunk.css",
     "static/js/0.76e3dddf.chunk.js": "/marvel-react/static/js/0.76e3dddf.chunk.js",
     "static/js/0.76e3dddf.chunk.js.map": "/marvel-react/static/js/0.76e3dddf.chunk.js.map",
-    "main.css": "/marvel-react/static/css/main.75c1acbf.chunk.css",
+    "main.css": "/marvel-react/static/css/main.4d958a71.chunk.css",
     "main.js": "/marvel-react/static/js/main.7196031e.chunk.js",
     "main.js.map": "/marvel-react/static/js/main.7196031e.chunk.js.map",
     "runtime-main.js": "/marvel-react/static/js/runtime-main.53a3661a.js",
@@ -34,7 +34,7 @@
     "static/css/6.558fd419.chunk.css.map": "/marvel-react/static/css/6.558fd419.chunk.css.map",
     "static/css/7.e85d564b.chunk.css.map": "/marvel-react/static/css/7.e85d564b.chunk.css.map",
     "static/css/8.f27836e8.chunk.css.map": "/marvel-react/static/css/8.f27836e8.chunk.css.map",
-    "static/css/main.75c1acbf.chunk.css.map": "/marvel-react/static/css/main.75c1acbf.chunk.css.map",
+    "static/css/main.4d958a71.chunk.css.map": "/marvel-react/static/css/main.4d958a71.chunk.css.map",
     "static/js/3.bc3e8101.chunk.js.LICENSE.txt": "/marvel-react/static/js/3.bc3e8101.chunk.js.LICENSE.txt",
     "static/media/Avengers.4065c8f9.png": "/marvel-react/static/media/Avengers.4065c8f9.png",
     "static/media/Avengers_logo.9eaf2193.png": "/marvel-react/static/media/Avengers_logo.9eaf2193.png",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.53a3661a.js",
     "static/js/3.bc3e8101.chunk.js",
-    "static/css/main.75c1acbf.chunk.css",
+    "static/css/main.4d958a71.chunk.css",
     "static/js/main.7196031e.chunk.js"
   ]
 }
