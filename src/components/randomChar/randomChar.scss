@@ -75,6 +75,12 @@
 	.randomchar {
 		display: flex;
 		flex-direction: column;
+		&__descr {
+			padding-right: 5px;
+		}
+		&__name {
+			padding-right: 5px;
+		}
 	}
 }
 
