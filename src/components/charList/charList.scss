@@ -8,10 +8,7 @@
 		column-gap: 25px;
 		align-items: start;
 	}
-	&__select {
-		position: sticky;
-		top: 20px;
-	}
+
 	&__grid {
 		display: grid;
 		grid-template-columns: repeat(3, 200px);
@@ -68,9 +65,6 @@
 		&__content {
 			grid-template-columns: 1fr;
 			justify-content: center;
-		}
-		&__select {
-			position: static;
 		}
 	}
 }
