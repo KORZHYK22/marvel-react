@@ -50,6 +50,16 @@
 	}
 }
 
+@media (max-width: $smallLaptop) {
+	.char {
+		&__search {
+			&-wrapper {
+				justify-content: space-around;
+			}
+		}
+	}
+}
+
 @media (max-width: $mobileSmall) {
 	.char {
 		&__search {
