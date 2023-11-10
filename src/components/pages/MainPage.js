@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import RandomChar from "../randomChar/RandomChar";
 import CharList from "../charList/CharList";
 import CharInfo from "../charInfo/CharInfo";
@@ -8,9 +8,11 @@ import CharSearchForm from "../CharSearchForm/CharSearchForm";
 
 const MainPage = () => {
 	const [selectedChar, setChar] = useState(null);
+	const ref = useRef(null);
 
 	const onCharSelected = (id) => {
 		setChar(id);
+		ref.current?.scrollIntoView({ behavior: "smooth" });
 	};
 	return (
 		<>
@@ -26,7 +28,7 @@ const MainPage = () => {
 						<CharSearchForm />
 					</ErrorBoundary>
 					<ErrorBoundary>
-						<CharInfo charId={selectedChar} />
+						<CharInfo charId={selectedChar} ref={ref} />
 					</ErrorBoundary>
 				</div>
 			</div>

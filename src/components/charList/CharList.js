@@ -42,7 +42,7 @@ const CharList = (props) => {
 		itemRefs.current[id].focus();
 	};
 
-	function renderItems(arr) {
+	function renderItems(arr, ref) {
 		const items = arr.map((item, i) => {
 			let imgStyle = { objectFit: "cover" };
 			if (item.thumbnail === "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg") {

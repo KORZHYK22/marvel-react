@@ -5,8 +5,9 @@ import ErrorMessage from "../errorMessage/ErrorMessage";
 import Skeleton from "../skeleton/Skeleton";
 import "./charInfo.scss";
 import PropTypes from "prop-types";
+import { forwardRef } from "react";
 
-const CharInfo = (props) => {
+const CharInfo = (props, ref) => {
 	const [char, setChar] = useState(null);
 
 	const { loading, error, getCharacter, clearError } = useMarvelService();
@@ -34,7 +35,7 @@ const CharInfo = (props) => {
 	const content = !(error || !char || loading) ? <View char={char} /> : null;
 
 	return (
-		<div className="char__info">
+		<div className="char__info" ref={ref}>
 			{skeleton}
 			{errorMessage}
 			{spinner}
@@ -87,4 +88,4 @@ CharInfo.propTypes = {
 	charId: PropTypes.number,
 };
 
-export default CharInfo;
+export default forwardRef(CharInfo);
