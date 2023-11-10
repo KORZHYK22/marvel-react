@@ -6,15 +6,15 @@
     "main.css": "/marvel-react/static/css/main.969b1008.chunk.css",
     "main.js": "/marvel-react/static/js/main.7196031e.chunk.js",
     "main.js.map": "/marvel-react/static/js/main.7196031e.chunk.js.map",
-    "runtime-main.js": "/marvel-react/static/js/runtime-main.f4877cd4.js",
-    "runtime-main.js.map": "/marvel-react/static/js/runtime-main.f4877cd4.js.map",
+    "runtime-main.js": "/marvel-react/static/js/runtime-main.893c9c11.js",
+    "runtime-main.js.map": "/marvel-react/static/js/runtime-main.893c9c11.js.map",
     "static/js/3.bc3e8101.chunk.js": "/marvel-react/static/js/3.bc3e8101.chunk.js",
     "static/js/3.bc3e8101.chunk.js.map": "/marvel-react/static/js/3.bc3e8101.chunk.js.map",
     "static/js/4.b701eb88.chunk.js": "/marvel-react/static/js/4.b701eb88.chunk.js",
     "static/js/4.b701eb88.chunk.js.map": "/marvel-react/static/js/4.b701eb88.chunk.js.map",
     "static/css/5.b9cf0348.chunk.css": "/marvel-react/static/css/5.b9cf0348.chunk.css",
-    "static/js/5.989fdf7d.chunk.js": "/marvel-react/static/js/5.989fdf7d.chunk.js",
-    "static/js/5.989fdf7d.chunk.js.map": "/marvel-react/static/js/5.989fdf7d.chunk.js.map",
+    "static/js/5.1aa12e67.chunk.js": "/marvel-react/static/js/5.1aa12e67.chunk.js",
+    "static/js/5.1aa12e67.chunk.js.map": "/marvel-react/static/js/5.1aa12e67.chunk.js.map",
     "static/css/6.e4aacfd5.chunk.css": "/marvel-react/static/css/6.e4aacfd5.chunk.css",
     "static/js/6.e50416a8.chunk.js": "/marvel-react/static/js/6.e50416a8.chunk.js",
     "static/js/6.e50416a8.chunk.js.map": "/marvel-react/static/js/6.e50416a8.chunk.js.map",
@@ -43,7 +43,7 @@
     "static/media/vision.067d4ae1.png": "/marvel-react/static/media/vision.067d4ae1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4877cd4.js",
+    "static/js/runtime-main.893c9c11.js",
     "static/js/3.bc3e8101.chunk.js",
     "static/css/main.969b1008.chunk.css",
     "static/js/main.7196031e.chunk.js"
