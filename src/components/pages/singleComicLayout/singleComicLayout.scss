@@ -7,6 +7,7 @@
 	column-gap: 50px;
 	align-items: start;
 	&__img {
+		margin: auto;
 		width: 293px;
 		height: 450px;
 		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.55);
@@ -90,9 +91,6 @@
 		}
 		&__back {
 			padding-top: 10px;
-			&:hover {
-				color: $main-color;
-			}
 		}
 		&__price {
 			margin-top: 10px;

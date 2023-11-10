@@ -21,12 +21,12 @@ const MainPage = () => {
 				<ErrorBoundary>
 					<CharList onCharSelected={onCharSelected} />
 				</ErrorBoundary>
-				<div>
-					<ErrorBoundary>
-						<CharInfo charId={selectedChar} />
-					</ErrorBoundary>
+				<div className="char__select">
 					<ErrorBoundary>
 						<CharSearchForm />
+					</ErrorBoundary>
+					<ErrorBoundary>
+						<CharInfo charId={selectedChar} />
 					</ErrorBoundary>
 				</div>
 			</div>
